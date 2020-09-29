@@ -2,7 +2,7 @@
     export let name: string;
 </script>
 
-<style lang="scss">
+<style>
     h1 {
         color: #ff3e00;
         text-transform: uppercase;
