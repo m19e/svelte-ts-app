@@ -1,6 +1,7 @@
 <script lang="ts">
     import Greet from "./Greet.svelte";
     import Card from "./Card.svelte";
+    import BuildName from "./BuildName.svelte";
     export let name: string;
     let checked: boolean = false;
 </script>
@@ -31,4 +32,5 @@
     <input placeholder="Enter your name" bind:value={name} />
     <div>Hello, {name}</div>
     <div><input type="checkbox" bind:checked /> current status is [{'' + checked}]</div>
+    <BuildName />
 </main>
