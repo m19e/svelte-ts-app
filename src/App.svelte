@@ -2,6 +2,7 @@
     import Greet from "./Greet.svelte";
     import Card from "./Card.svelte";
     export let name: string;
+    let checked: boolean = false;
 </script>
 
 <style lang="scss">
@@ -29,4 +30,6 @@
     <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
     <input placeholder="Enter your name" bind:value={name} />
     <div>Hello, {name}</div>
+    <input type="checkbox" bind:checked />
+    <div>current status is [{'' + checked}]</div>
 </main>
