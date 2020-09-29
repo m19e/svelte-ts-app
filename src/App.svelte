@@ -2,6 +2,7 @@
     import Greet from "./Greet.svelte";
     import Card from "./Card.svelte";
     import BuildName from "./BuildName.svelte";
+    import IfElse from "./IfElse.svelte";
     export let name: string;
     let checked: boolean = false;
 </script>
@@ -33,4 +34,5 @@
     <div>Hello, {name}</div>
     <div><input type="checkbox" bind:checked /> current status is [{'' + checked}]</div>
     <BuildName />
+    <IfElse {checked} />
 </main>
