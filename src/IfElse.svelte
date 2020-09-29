@@ -3,10 +3,10 @@
 </script>
 
 <div>
-    <label> <input type="checkbox" bind:checked /> Check Me! </label>
+    <label> <input type="checkbox" bind:checked /> Raise the Sun! </label>
     {#if checked}
-        <div>Checked!</div>
+        <div>Day!!!!</div>
     {:else}
-        <div>Hurry!!</div>
+        <div>Night....</div>
     {/if}
 </div>
