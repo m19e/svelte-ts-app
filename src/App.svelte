@@ -15,6 +15,7 @@
         padding: 1em;
         max-width: 240px;
         margin: 0 auto;
+        background-color: rgb(200, 200, 200);
         p {
             color: #ff3e00;
         }
