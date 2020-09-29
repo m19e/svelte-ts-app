@@ -1,5 +1,6 @@
 <script lang="ts">
     import Greet from "./Greet.svelte";
+    import Card from "./Card.svelte";
     export let name: string;
 </script>
 
@@ -22,6 +23,8 @@
 </style>
 
 <main>
-    <Greet {name} />
+    <Card>
+        <Greet {name} />
+    </Card>
     <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
