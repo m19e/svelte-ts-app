@@ -27,4 +27,6 @@
         <Greet {name} />
     </Card>
     <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+    <input placeholder="Enter your name" bind:value={name} />
+    <div>Hello, {name}</div>
 </main>
