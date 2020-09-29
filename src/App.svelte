@@ -1,7 +1,6 @@
 <script lang="ts">
     import Greet from "./Greet.svelte";
     export let name: string;
-    const msg: string = "Hello";
 </script>
 
 <style lang="scss">
