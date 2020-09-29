@@ -3,6 +3,7 @@
     import Card from "./Card.svelte";
     import BuildName from "./BuildName.svelte";
     import IfElse from "./IfElse.svelte";
+    import Each from "./Each.svelte";
     export let name: string;
     let checked: boolean = false;
 </script>
@@ -35,4 +36,5 @@
     <div><input type="checkbox" bind:checked /> current status is [{'' + checked}]</div>
     <BuildName />
     <IfElse {checked} />
+    <Each />
 </main>
