@@ -30,6 +30,5 @@
     <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
     <input placeholder="Enter your name" bind:value={name} />
     <div>Hello, {name}</div>
-    <input type="checkbox" bind:checked />
-    <div>current status is [{'' + checked}]</div>
+    <div><input type="checkbox" bind:checked /> current status is [{'' + checked}]</div>
 </main>
