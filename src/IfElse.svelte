@@ -2,11 +2,9 @@
     export let checked: boolean = false;
 </script>
 
-<div>
-    <label> <input type="checkbox" bind:checked /> Raise the Sun! </label>
-    {#if checked}
-        <div>Day!!!!</div>
-    {:else}
-        <div>Night....</div>
-    {/if}
-</div>
+<label> <input type="checkbox" bind:checked /> Raise the Sun! </label>
+{#if checked}
+    <div>Day!!!!</div>
+{:else}
+    <div>Night....</div>
+{/if}
