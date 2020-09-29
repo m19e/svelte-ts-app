@@ -1,7 +1,7 @@
 <script lang="ts">
     let firstName: string = "Akiha";
     let lastName: string = "Arisugawa";
-    let fullName: string = `${firstName} ${lastName}`;
+    $: fullName = `${firstName} ${lastName}`;
 </script>
 
 <main>
