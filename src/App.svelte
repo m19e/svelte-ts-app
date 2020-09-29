@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Greet from "./Greet.svelte";
     export let name: string;
     const msg: string = "Hello";
 </script>
@@ -29,6 +30,6 @@
 </style>
 
 <main>
-    <h1>{msg} {name}!</h1>
+    <Greet {name} />
     <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
