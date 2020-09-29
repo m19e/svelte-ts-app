@@ -4,6 +4,7 @@
     import BuildName from "./BuildName.svelte";
     import IfElse from "./IfElse.svelte";
     import Each from "./Each.svelte";
+    import Bar from "./Bar.svelte";
     export let name: string;
     let checked: boolean = false;
 </script>
@@ -37,4 +38,5 @@
     <BuildName />
     <IfElse {checked} />
     <Each />
+    <Bar label="HP" value={200} />
 </main>
